@@ -157,6 +157,9 @@ No known bugs at this time.
 Alexa Orrico - [Github](https://github.com/alexaorrico) / [Twitter](https://twitter.com/alexa_orrico)  
 Jennifer Huang - [Github](https://github.com/jhuang10123) / [Twitter](https://twitter.com/earthtojhuang)
 
-Second part of Airbnb: Joann Vuong
+Second part of Airbnb: Joann
+Yonas Gebrehiwot - [Github](https://github.com/yonasghiwot)
+Dagmawit Terefe - [Github](https://github.com/dagm24)
+
 ## License
 Public Domain. No copy write protection. 
