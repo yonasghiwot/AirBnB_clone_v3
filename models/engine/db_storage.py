@@ -1,7 +1,5 @@
 #!/usr/bin/python3
-"""
-Contains the class DBStorage
-"""
+"""Contains the class DBStorage"""
 
 import models
 from models.amenity import Amenity
@@ -74,7 +72,7 @@ class DBStorage:
     def close(self):
         """call remove() method on the private session attribute"""
         self.__session.remove()
-    
+
     def get(self, cls, id):
         """
         Returns the object based on the class and its ID, or None if not found
@@ -86,10 +84,7 @@ class DBStorage:
         for value in all_cls.values():
             if (value.id == id):
                 return value
-
-
         return None
-
 
     def count(self, cls=None):
         """
@@ -106,4 +101,3 @@ class DBStorage:
             count = len(models.storage.all(cls).values())
 
         return count
-
